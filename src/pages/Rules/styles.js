@@ -15,13 +15,24 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
   },
   listContainer: {
-    justifyContent: 'center',
+    marginTop: 40,
+    justifyContent: 'space-around',
     alignItems: 'center',
     flexDirection: 'row',
   },
+  wordContainer: {
+    backgroundColor: '#338bf3',
+    width: 50,
+    height: 50,
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
   title: {
     fontSize: 30,
   },
+
   tittleIcon: {
     justifyContent: 'center',
     alignItems: 'center',
@@ -29,12 +40,30 @@ export default StyleSheet.create({
     width: 30,
     borderRadius: 5,
   },
+
   listWords: {
-    width: 19,
-    marginLeft: 20,
-    fontSize: 10,
+    fontSize: 25,
+    color: '#fff',
   },
-  button: {
+
+  littleTitle: {
+    fontSize: 20,
+  },
+
+  wordsContainer: {
+    marginTop: 150,
+    backgroundColor: '#f14f15',
+    height: 50,
+    justifyContent: 'center',
+    padding: 20,
+    borderRadius: 10,
+  },
+
+  word: {
+    fontSize: 20,
+  },
+
+  saveContainer: {
     backgroundColor: '#338BF3',
     borderRadius: 10,
     height: 50,
@@ -42,16 +71,31 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  textButton: {
-    color: '#fff',
+
+  saveText: {
     fontSize: 18,
-    fontWeight: 'bold',
+    color: '#fff',
   },
 
-  littleTitle: {
-    fontSize: 20,
+  buttonsContainer: {
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    paddingTop: 50,
+    flexDirection: 'row',
   },
-  word: {
-    fontSize: 20,
+
+  Button: {
+    backgroundColor: '#338BF3',
+    borderRadius: 10,
+    height: 50,
+    width: '48%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  buttonText: {
+    fontSize: 18,
+    color: '#fff',
+    fontWeight: 'bold',
   },
 });
